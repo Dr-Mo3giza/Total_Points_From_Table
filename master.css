@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body .container {
+  background-color: #eeeeee;
+  width: 500px;
+  font-size: 18px;
+  padding: 30px 50px;
+}
+body .container table {
+  display: block;
+  margin-bottom: 30px;
+}
+body .container table caption {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+body .container table tr {
+  background-color: white;
+}
+body .container table tr td {
+  padding: 10px;
+}
+body .container table tr td:first-of-type {
+  width: 300px;
+}
+body .container table tr td:last-of-type {
+  width: 100px;
+}
